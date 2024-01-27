@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20"
+      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-60 py-20"
       style={{ transform: "scale(0.9" }}>
       <SkillText />
 
@@ -76,7 +76,7 @@ const Skills = () => {
           />
         ))}
       </div> */}
-      
+
       <div className="w-full h-full absolute">
         <div className="w-fill h-full opacity-30 absolute flex items-center justify-center bg-cover z-[-10]">
           <video
